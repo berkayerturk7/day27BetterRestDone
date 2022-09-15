@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DDDF5128D20DD8005F9679 /* day26BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF4128D20DD7005F9679 /* day26BetterRestApp.swift */; };
+		A9DDDF5228D20DD8005F9679 /* day26BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF4128D20DD7005F9679 /* day26BetterRestApp.swift */; };
+		A9DDDF5328D20DD8005F9679 /* MyStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF4228D20DD7005F9679 /* MyStepper.swift */; };
+		A9DDDF5428D20DD8005F9679 /* MyStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF4228D20DD7005F9679 /* MyStepper.swift */; };
+		A9DDDF5528D20DD8005F9679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DDDF4328D20DD8005F9679 /* Assets.xcassets */; };
+		A9DDDF5628D20DD8005F9679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DDDF4328D20DD8005F9679 /* Assets.xcassets */; };
+		A9DDDF6028D240E6005F9679 /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF5F28D240E6005F9679 /* MyDatePicker.swift */; };
+		A9DDDF6128D240E6005F9679 /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF5F28D240E6005F9679 /* MyDatePicker.swift */; };
+		A9DDDF6328D2455D005F9679 /* WorkingWithDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6228D2455D005F9679 /* WorkingWithDates.swift */; };
+		A9DDDF6428D2455D005F9679 /* WorkingWithDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6228D2455D005F9679 /* WorkingWithDates.swift */; };
+		A9DDDF6628D26E54005F9679 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6528D26E54005F9679 /* BetterRest.swift */; };
+		A9DDDF6728D26E54005F9679 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6528D26E54005F9679 /* BetterRest.swift */; };
+		A9DDDF6928D3C451005F9679 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6828D3C451005F9679 /* SleepCalculator.mlmodel */; };
+		A9DDDF6A28D3C451005F9679 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9DDDF6828D3C451005F9679 /* SleepCalculator.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9DDDF4128D20DD7005F9679 /* day26BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day26BetterRestApp.swift; sourceTree = "<group>"; };
+		A9DDDF4228D20DD7005F9679 /* MyStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStepper.swift; sourceTree = "<group>"; };
+		A9DDDF4328D20DD8005F9679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DDDF4828D20DD8005F9679 /* day26BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day26BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DDDF4E28D20DD8005F9679 /* day26BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day26BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DDDF5028D20DD8005F9679 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A9DDDF5F28D240E6005F9679 /* MyDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDatePicker.swift; sourceTree = "<group>"; };
+		A9DDDF6228D2455D005F9679 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
+		A9DDDF6528D26E54005F9679 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		A9DDDF6828D3C451005F9679 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DDDF4528D20DD8005F9679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DDDF4B28D20DD8005F9679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DDDF3B28D20DD7005F9679 = {
+			isa = PBXGroup;
+			children = (
+				A9DDDF4028D20DD7005F9679 /* Shared */,
+				A9DDDF4F28D20DD8005F9679 /* macOS */,
+				A9DDDF4928D20DD8005F9679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DDDF4028D20DD7005F9679 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A9DDDF4128D20DD7005F9679 /* day26BetterRestApp.swift */,
+				A9DDDF4228D20DD7005F9679 /* MyStepper.swift */,
+				A9DDDF6828D3C451005F9679 /* SleepCalculator.mlmodel */,
+				A9DDDF6528D26E54005F9679 /* BetterRest.swift */,
+				A9DDDF6228D2455D005F9679 /* WorkingWithDates.swift */,
+				A9DDDF5F28D240E6005F9679 /* MyDatePicker.swift */,
+				A9DDDF4328D20DD8005F9679 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A9DDDF4928D20DD8005F9679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DDDF4828D20DD8005F9679 /* day26BetterRest.app */,
+				A9DDDF4E28D20DD8005F9679 /* day26BetterRest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DDDF4F28D20DD8005F9679 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9DDDF5028D20DD8005F9679 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DDDF4728D20DD8005F9679 /* day26BetterRest (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DDDF5928D20DD8005F9679 /* Build configuration list for PBXNativeTarget "day26BetterRest (iOS)" */;
+			buildPhases = (
+				A9DDDF4428D20DD8005F9679 /* Sources */,
+				A9DDDF4528D20DD8005F9679 /* Frameworks */,
+				A9DDDF4628D20DD8005F9679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day26BetterRest (iOS)";
+			productName = "day26BetterRest (iOS)";
+			productReference = A9DDDF4828D20DD8005F9679 /* day26BetterRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9DDDF4D28D20DD8005F9679 /* day26BetterRest (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DDDF5C28D20DD8005F9679 /* Build configuration list for PBXNativeTarget "day26BetterRest (macOS)" */;
+			buildPhases = (
+				A9DDDF4A28D20DD8005F9679 /* Sources */,
+				A9DDDF4B28D20DD8005F9679 /* Frameworks */,
+				A9DDDF4C28D20DD8005F9679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day26BetterRest (macOS)";
+			productName = "day26BetterRest (macOS)";
+			productReference = A9DDDF4E28D20DD8005F9679 /* day26BetterRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DDDF3C28D20DD7005F9679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A9DDDF4728D20DD8005F9679 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A9DDDF4D28D20DD8005F9679 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A9DDDF3F28D20DD7005F9679 /* Build configuration list for PBXProject "day26BetterRest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DDDF3B28D20DD7005F9679;
+			productRefGroup = A9DDDF4928D20DD8005F9679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DDDF4728D20DD8005F9679 /* day26BetterRest (iOS) */,
+				A9DDDF4D28D20DD8005F9679 /* day26BetterRest (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DDDF4628D20DD8005F9679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DDDF5528D20DD8005F9679 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DDDF4C28D20DD8005F9679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DDDF5628D20DD8005F9679 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DDDF4428D20DD8005F9679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DDDF5328D20DD8005F9679 /* MyStepper.swift in Sources */,
+				A9DDDF6628D26E54005F9679 /* BetterRest.swift in Sources */,
+				A9DDDF6028D240E6005F9679 /* MyDatePicker.swift in Sources */,
+				A9DDDF5128D20DD8005F9679 /* day26BetterRestApp.swift in Sources */,
+				A9DDDF6928D3C451005F9679 /* SleepCalculator.mlmodel in Sources */,
+				A9DDDF6328D2455D005F9679 /* WorkingWithDates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DDDF4A28D20DD8005F9679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DDDF5428D20DD8005F9679 /* MyStepper.swift in Sources */,
+				A9DDDF6728D26E54005F9679 /* BetterRest.swift in Sources */,
+				A9DDDF6128D240E6005F9679 /* MyDatePicker.swift in Sources */,
+				A9DDDF5228D20DD8005F9679 /* day26BetterRestApp.swift in Sources */,
+				A9DDDF6A28D3C451005F9679 /* SleepCalculator.mlmodel in Sources */,
+				A9DDDF6428D2455D005F9679 /* WorkingWithDates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9DDDF5728D20DD8005F9679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DDDF5828D20DD8005F9679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A9DDDF5A28D20DD8005F9679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMNP5AK8L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berkayIdentifier.day26BetterRest;
+				PRODUCT_NAME = day26BetterRest;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DDDF5B28D20DD8005F9679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMNP5AK8L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berkayIdentifier.day26BetterRest;
+				PRODUCT_NAME = day26BetterRest;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DDDF5D28D20DD8005F9679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMNP5AK8L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berkayIdentifier.day26BetterRest;
+				PRODUCT_NAME = day26BetterRest;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A9DDDF5E28D20DD8005F9679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMNP5AK8L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berkayIdentifier.day26BetterRest;
+				PRODUCT_NAME = day26BetterRest;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DDDF3F28D20DD7005F9679 /* Build configuration list for PBXProject "day26BetterRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DDDF5728D20DD8005F9679 /* Debug */,
+				A9DDDF5828D20DD8005F9679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DDDF5928D20DD8005F9679 /* Build configuration list for PBXNativeTarget "day26BetterRest (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DDDF5A28D20DD8005F9679 /* Debug */,
+				A9DDDF5B28D20DD8005F9679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DDDF5C28D20DD8005F9679 /* Build configuration list for PBXNativeTarget "day26BetterRest (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DDDF5D28D20DD8005F9679 /* Debug */,
+				A9DDDF5E28D20DD8005F9679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DDDF3C28D20DD7005F9679 /* Project object */;
+}
